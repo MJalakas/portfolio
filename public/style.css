@@ -1,0 +1,100 @@
+body {
+  background-color: #23252C;
+  font-family: 'Inter', sans-serif;
+}
+
+.header {
+  text-align:center;
+  width:100%;
+}
+
+.main-content {
+  background-color: #1A1B21;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  padding:30px 50px;
+  box-sizing: border-box;
+  margin:0;
+}
+
+.about--content, .interests--content {
+  font-size:12px;
+  line-height:16px;
+  color:#DCDCDC;
+}
+
+h3 {
+  size:18px;
+  line-height: 28px;
+  color:#F5F5F5;
+  margin:0;
+  font-weight:700;
+  margin: 16px 0 4px 0;
+}
+
+.business-card {
+  width:400px;
+  margin:10px 0 10px 20px;
+}
+
+.profile-pic {
+  width:400px;
+  margin:0;
+  border-radius: 10px 10px 0 0;
+  display:block;
+}
+
+.footer {
+  width:400px;
+  background-color: #161619;
+  height:80px;
+  border-radius: 0 0 10px 10px;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.buttons {
+  display:flex;
+  gap:30px;
+}
+
+.buttons > a > img {
+  width:30px;
+}
+
+.buttons-wrapper {
+  margin-top:20px;
+  margin-bottom:10px;
+  display:flex;
+  justify-content: space-between;
+}
+
+.email-logo, .linkedin-logo {
+  width:145px;
+}
+
+.website {
+  text-decoration:none;
+  color:#F5F5F5;
+  font-size:12px;
+}
+
+h1 {
+  color:white;
+  font-size:25px;
+  margin:0;
+  font-weight:700;
+  padding-bottom:6px;
+}
+
+.profession {
+  color:#F3BF99;
+  margin:0;
+  font-size: 14px;
+  line-height: 16px;
+  padding-bottom:8px;
+  font-weight:400;
+}
+
