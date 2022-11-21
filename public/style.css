@@ -14,12 +14,15 @@ main {
   gap:20px;
   align-items: center;
   padding-top:20px;
+  padding-left:60px;
 }
 
 .showcase--wrapper {
   display:flex;
   flex-wrap:wrap;
-  justify-content: space-around;
+  justify-content: center;
+  column-gap:100px;
+  row-gap:7px;
   max-height:908.969px
 }
 
@@ -125,6 +128,10 @@ h1 {
 
 .card--image-wrapper {
   overflow:hidden;
+  text-align:center;
+  display:flex;
+  justify-content:center;
+  align-items: center;
 }
 
 .card--image-wrapper > img {
@@ -133,8 +140,27 @@ h1 {
   width:100%;
   object-fit: cover;
   transition: transform .5s ease;
+  filter: blur(3px);
 }
 
+.card--image-wrapper > img:hover {
+  filter: blur(0);
+}
+
+.empty-div {
+  flex-grow:1;
+}
+
+.profile-img-wrapper {
+  display:flex;
+  align-items:center;
+}
+
+.hover-me {
+  position: absolute;
+  transform: scale(0.75);
+  margin-top:10px;
+}
 
 .card--links { 
   display:flex;
