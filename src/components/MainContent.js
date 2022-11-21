@@ -4,7 +4,7 @@ import Texts from "./Texts";
 
 export default function MainContent() {
   return (
-    <div className="main-content">
+    <div className="business-card--main-content">
       <Header />
       <Texts />
     </div>
