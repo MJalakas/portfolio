@@ -3,7 +3,7 @@ export default [
     id: 1,
     name: "Majutused.ee",
     url: "https://majutused.ee",
-    image: "https://i.paste.pics/b6739d6ac7d166314517c069a7e0c316.png",
+    image: "https://i.paste.pics/4025402c550c4bc032e7557830e85f65.png",
     frontStack: "HTML, CSS, React + JS",
     backStack: "Node.js, connecting to MySQL soon.",
     github: "https://github.com/nuf1k/majutused.ee",
